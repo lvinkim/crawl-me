@@ -1,0 +1,22 @@
+{
+  "name": "lvinkim/sword-skeleton",
+  "type": "project",
+  "require": {
+    "php": "^7.1",
+    "lvinkim/sword-kernel": "~0.3.0"
+  },
+  "require-dev": {
+    "swoft/swoole-ide-helper": "dev-master",
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  }
+}
